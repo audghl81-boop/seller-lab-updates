@@ -1,12 +1,13 @@
 {
   "enabled": true,
-  "version": "3.1.414.6600",
+  "version": "3.1.414.6700",
   "minimum_version": "3.1.414.6300",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6600/SELLER_LAB_3_1_414_6600_UPDATE.zip",
-  "sha256": "b6b47d446732950fcf97290a4596a840af90e8101216ac45c6eed6a49821d04b",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6700/SELLER_LAB_3_1_414_6700_UPDATE.zip",
+  "sha256": "f39791b695ac0901f2d3cb93c7ca5af8d76ff132e0a171ef8f4d8536410584b8",
   "mandatory": false,
   "notes": [
-    "FIX414P66A P66 빌더 app import 경로/진단로그 수정",
+    "FIX414P66B updater TEMP 작업경로 단축 및 Windows 장경로 처리",
+    "ZIP member 사전검사/안전 추출 및 staging 필수파일 검증",
     "FIX414P66 startup update diagnostic 기능 유지",
     "P64E manifest/package 안전장치 유지",
     "config/data/logs/out/updater_cache/update_settings.json 보존",
