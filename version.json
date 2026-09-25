@@ -2,18 +2,18 @@
   "enabled": true,
   "version": "3.1.414.6800",
   "minimum_version": "3.1.414.6300",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_3_1_414_6800_UPDATE.zip",
-  "sha256": "945d5254da19324917456a6363474c7d23249dbd08a2168798ec4548a4ec6278",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_3_1_414_6800_BRIDGE.zip",
+  "sha256": "5b332a5517b332bcb9c8e19c8829c1728ac68b462e428092fbe5bb5d99f2c83b",
   "mandatory": false,
   "updater_version": "3.1.414.6800",
   "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_Updater_3_1_414_6800.exe",
-  "updater_sha256": "fad6c659b57298cd722f3ed1dca4029474004e9bd359f4522599a337666e5aa2",
+  "updater_sha256": "2b95960a07827280b2b41ee95a730b54fb526a95ee6e64f586e8c25e0471038f",
+  "migration_bridge": true,
+  "full_manifest_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/version_v2_3_1_414_6800.json",
   "notes": [
-    "FIX414P66D Updater bootstrap migration + %TEMP%\\SLU workspace",
-    "ZIP member 사전검사/안전 추출 및 staging 필수파일 검증",
-    "FIX414P66 startup update diagnostic 기능 유지",
-    "P64E manifest/package 안전장치 유지",
-    "config/data/logs/out/updater_cache/update_settings.json 보존",
-    "실행 중인 SELLER_LAB_Updater.exe는 업데이트 ZIP 교체 대상에서 제외"
+    "FIX414P66E legacy P64E one-time migration bridge",
+    "1차 Bridge는 Chromium/Playwright를 포함하지 않음",
+    "Bridge 재실행 후 신형 Updater가 전체 패키지를 %TEMP%\\SLU에서 설치",
+    "Alpha/Gamma/Beta/Omega/Poizon/Naver/UI/Excel logic unchanged"
   ]
 }
