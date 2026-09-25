@@ -3,11 +3,11 @@
   "version": "3.1.414.6800",
   "minimum_version": "3.1.414.6300",
   "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_3_1_414_6800_UPDATE.zip",
-  "sha256": "ad619c87b2c950ec06122e15aa4e536c17edbed4dc73834f3c77e849630888b3",
+  "sha256": "8cca43d76f933aebd90d2c653366d484eda3d53b3e2eb9c620c9b985e248f20e",
   "mandatory": false,
   "updater_version": "3.1.414.6800",
   "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_Updater_3_1_414_6800.exe",
-  "updater_sha256": "2b95960a07827280b2b41ee95a730b54fb526a95ee6e64f586e8c25e0471038f",
+  "updater_sha256": "0fad6288edecc1d8a6558899136079110e4581021593fe9b272019a147845cc6",
   "notes": [
     "FIX414P66E full package installed only by bootstrap-capable updater",
     "%TEMP%\\SLU safe staging + long-path ZIP extraction",
