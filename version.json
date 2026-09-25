@@ -1,4 +1,15 @@
 {
-  "version": "3.1.414.6300",
-  "status": "setup"
+  "enabled": true,
+  "version": "3.1.414.6600",
+  "minimum_version": "3.1.414.6300",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6600/SELLER_LAB_3_1_414_6600_UPDATE.zip",
+  "sha256": "b6b47d446732950fcf97290a4596a840af90e8101216ac45c6eed6a49821d04b",
+  "mandatory": false,
+  "notes": [
+    "FIX414P66A P66 빌더 app import 경로/진단로그 수정",
+    "FIX414P66 startup update diagnostic 기능 유지",
+    "P64E manifest/package 안전장치 유지",
+    "config/data/logs/out/updater_cache/update_settings.json 보존",
+    "실행 중인 SELLER_LAB_Updater.exe는 업데이트 ZIP 교체 대상에서 제외"
+  ]
 }
