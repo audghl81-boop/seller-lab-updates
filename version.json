@@ -1,19 +1,14 @@
 {
   "enabled": true,
-  "version": "3.1.414.6800",
-  "minimum_version": "3.1.414.6300",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_3_1_414_6800_BRIDGE.zip",
-  "sha256": "b5c54630bb88190f63df2c7191bc8f07e8d43e68978e7cde661a228f998b2ef8",
+  "version": "3.1.414.6900",
+  "minimum_version": "3.1.414.6800",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6900/SELLER_LAB_3_1_414_6900_UPDATE.zip",
+  "sha256": "20f5243b0e23e2b6b61a3fe0671121908a884a5480fde05108fa935fc2421d46",
   "mandatory": false,
-  "updater_version": "3.1.414.6800",
-  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/SELLER_LAB_Updater_3_1_414_6800.exe",
-  "updater_sha256": "29798a0bfe965fe48d72d3ac36ae3b099a16ba25eaa17fcd61312a4c6557e4e5",
-  "migration_bridge": true,
-  "full_manifest_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.6800/version_v2_3_1_414_6800.json",
   "notes": [
-    "FIX414P66G legacy P64E one-time migration bridge",
-    "1차 Bridge는 Chromium/Playwright를 포함하지 않음",
-    "Bridge 재실행 후 신형 Updater가 전체 패키지를 %TEMP%\\SLU에서 설치",
-    "Alpha/Gamma/Beta/Omega/Poizon/Naver/UI/Excel logic unchanged"
+    "FIX414P67 설정 탭 버전 정보 + 업데이트 확인",
+    "설정 저장하기 버튼을 프로그램 설정 영역으로 이동",
+    "6800 신형 Updater → 6900 일반 자동 업데이트 검증",
+    "Alpha/Gamma/Beta/Omega/Poizon/Naver/Excel 엔진 변경 없음"
   ]
 }
