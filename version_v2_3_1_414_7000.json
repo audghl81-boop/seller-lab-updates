@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "version": "3.1.414.7000",
+  "minimum_version": "3.1.414.6900",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/SELLER_LAB_3_1_414_7000_UPDATE.zip",
+  "sha256": "70ea87232b869ec54fd5dab707447de72945df479da722e102a80e0715b25c9d",
+  "mandatory": false,
+  "notes": [
+    "FIX414P72 full 7000 install after GUI updater transition",
+    "P71 3/3 GUI lifecycle baseline preserved",
+    "Alpha/Gamma/Beta/Omega/Poizon/Naver/Excel engines unchanged"
+  ]
+}
