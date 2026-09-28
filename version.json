@@ -3,16 +3,13 @@
   "version": "3.1.414.7000",
   "minimum_version": "3.1.414.6900",
   "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/SELLER_LAB_3_1_414_7000_GUI_TRANSITION.zip",
-  "sha256": "910be817d216fd8cb66fc590d8120f76c635715d0f66aa44fb877ec41da033be",
+  "sha256": "e7291797d4d45dbeb0bbfbae73d8fe07fd0bc038e498cd86a382e9f1a8af85b1",
   "mandatory": false,
-  "updater_version": "3.1.414.7000",
-  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/SELLER_LAB_Updater_3_1_414_7000_GUI.exe",
-  "updater_sha256": "0d3a5fafb885b41720653b40af509d4e5485fe27973e4d1a1c2d083a36e87b64",
   "migration_bridge": true,
-  "full_manifest_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/version_v2_3_1_414_7000.json",
+  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/transition_config_3_1_414_7000.json",
   "notes": [
-    "FIX414P72 6900 → GUI Updater one-time transition",
-    "P71 GUI updater installed before full 7000 package",
+    "FIX414P75 6900 → GUI Updater one-time transition",
+    "Legacy updater remains in place until transition bridge starts",
     "After transition, future updates use GUI updater"
   ]
 }
