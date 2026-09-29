@@ -2,13 +2,13 @@
   "enabled": true,
   "version": "3.1.414.7100",
   "minimum_version": "3.1.414.6900",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_GUI_TRANSITION_P92.zip",
-  "sha256": "153cf8e7592f11c43b435104789b45f83fe3e9053556dc714d99cade417ce58e",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_GUI_TRANSITION_P93.zip",
+  "sha256": "c0c92394df161f0b190863978e0f88fe054f900a3d84bcdb96d0ca547e829b43",
   "mandatory": false,
   "migration_bridge": true,
-  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/transition_config_3_1_414_7100_P92.json",
+  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/transition_config_3_1_414_7100_P93.json",
   "notes": [
-    "FIX414P92 bootstrap recovery: 6900 app + updater misreporting 7000 -> 7100",
+    "FIX414P93 bootstrap recovery: 6900 app + updater misreporting 7000 -> 7100",
     "Legacy updater must install transition because 7100 > 7000",
     "Bridge replaces updater, forces full 7100 install, then relaunches SELLER LAB"
   ]
