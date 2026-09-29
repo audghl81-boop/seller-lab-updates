@@ -2,13 +2,13 @@
   "enabled": true,
   "version": "3.1.414.7000",
   "minimum_version": "3.1.414.6900",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/SELLER_LAB_3_1_414_7000_GUI_TRANSITION_P79.zip",
-  "sha256": "df58b03f00ef2a86bddf78c269d0460cbf7e806606ba5f9d05cc0f8fd526327d",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/SELLER_LAB_3_1_414_7000_GUI_TRANSITION_P81.zip",
+  "sha256": "44d2c26d3f22a7f07f6e836fe7a04f1d6f5232ec9ea3e35cf9eca43fa808a7eb",
   "mandatory": false,
   "migration_bridge": true,
-  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/transition_config_3_1_414_7000_P79.json",
+  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7000/transition_config_3_1_414_7000_P81.json",
   "notes": [
-    "FIX414P79 6900 → GUI Updater transition with current-status relaunch",
+    "FIX414P81 6900 → GUI Updater transition with current-status relaunch",
     "Legacy updater remains in place until transition bridge starts",
     "After transition, future updates use GUI updater"
   ]
