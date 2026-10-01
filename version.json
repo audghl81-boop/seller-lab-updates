@@ -2,14 +2,16 @@
   "enabled": true,
   "version": "3.1.414.7100",
   "minimum_version": "3.1.414.6900",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_GUI_TRANSITION_P93.zip",
-  "sha256": "c0c92394df161f0b190863978e0f88fe054f900a3d84bcdb96d0ca547e829b43",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_UPDATE_P94.zip",
+  "sha256": "3a6ff9c18497e3ff062d95558d6926bbeb2d841045b18a1ca7b48bfb191dbe49",
   "mandatory": false,
-  "migration_bridge": true,
-  "transition_config_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/transition_config_3_1_414_7100_P93.json",
+  "updater_version": "3.1.414.7100",
+  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_Updater_3_1_414_7100_GUI_P94.exe",
+  "updater_sha256": "63924018b4b5f3cdd80e5ed2ea1e78c319ca13145d80d2575aff517e4918f502",
   "notes": [
-    "FIX414P93 bootstrap recovery: 6900 app + updater misreporting 7000 -> 7100",
-    "Legacy updater must install transition because 7100 > 7000",
-    "Bridge replaces updater, forces full 7100 install, then relaunches SELLER LAB"
+    "FIX414P94 mixed-version recovery: installed payload 6900 + updater 7100",
+    "6900 launcher bootstraps the P94 updater before approval",
+    "P94 updater trusts root/version.json for installed payload and continues verified full install",
+    "P93 single-relaunch guards and protected user data policy preserved"
   ]
 }
