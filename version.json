@@ -2,16 +2,16 @@
   "enabled": true,
   "version": "3.1.414.7100",
   "minimum_version": "3.1.414.6900",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_UPDATE_P94.zip",
-  "sha256": "7ff2721c1bf9a1d942d67574fcd9133fe3f003630d209f2a3ae30c8b1a5695db",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_UPDATE_P113.zip",
+  "sha256": "9315a5615e8ea0d06439193e2baae6c7d1522f91509849683c21e53ddf4c1dbd",
   "mandatory": false,
   "updater_version": "3.1.414.7100",
-  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_Updater_3_1_414_7100_GUI_P94.exe",
-  "updater_sha256": "72960b977c063ab15c2ff4aaf7ba099995069777c667b26c021746ef221dcb1e",
+  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_Updater_3_1_414_7100_GUI_P113.exe",
+  "updater_sha256": "0bfab649a9ebea4b5b3a21473b1a07ff0f41725d8d25dd2f500bae29a98be655",
   "notes": [
-    "FIX414P94 mixed-version recovery: installed payload 6900 + updater 7100",
-    "6900 launcher bootstraps the P94 updater before approval",
-    "P94 updater trusts root/version.json for installed payload and continues verified full install",
+    "FIX414P113 payload with verified P94 mixed-version recovery compatibility",
+    "6900 launcher bootstraps the P113 updater before approval",
+    "P113 updater preserves P94 root/version.json mixed-version recovery behavior",
     "P93 single-relaunch guards and protected user data policy preserved"
   ]
 }
