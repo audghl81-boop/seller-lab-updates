@@ -2,16 +2,16 @@
   "enabled": true,
   "version": "3.1.414.7100",
   "minimum_version": "3.1.414.6900",
-  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_UPDATE_P113.zip",
-  "sha256": "9315a5615e8ea0d06439193e2baae6c7d1522f91509849683c21e53ddf4c1dbd",
+  "package_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_3_1_414_7100_UPDATE_P114.zip",
+  "sha256": "0d9cc0d89f5f13702ac5a208ad502a5704b4bd1afb424650e663073759253c54",
   "mandatory": false,
   "updater_version": "3.1.414.7100",
-  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_Updater_3_1_414_7100_GUI_P113.exe",
-  "updater_sha256": "0bfab649a9ebea4b5b3a21473b1a07ff0f41725d8d25dd2f500bae29a98be655",
+  "updater_url": "https://github.com/audghl81-boop/seller-lab-updates/releases/download/v3.1.414.7100/SELLER_LAB_Updater_3_1_414_7100_GUI_P114.exe",
+  "updater_sha256": "de2d02480aa71056f361130954a22e8e2aab49eb7178c60882cefd1fd511b20c",
   "notes": [
-    "FIX414P113 payload with verified P94 mixed-version recovery compatibility",
-    "6900 launcher bootstraps the P113 updater before approval",
-    "P113 updater preserves P94 root/version.json mixed-version recovery behavior",
+    "FIX414P114 Beta: Galleria + Lotte Department exact-match collectors; REXMONDE UI entry only",
+    "6900 launcher bootstraps the P114 updater before approval",
+    "P114 updater preserves P94 root/version.json mixed-version recovery behavior",
     "P93 single-relaunch guards and protected user data policy preserved"
   ]
 }
